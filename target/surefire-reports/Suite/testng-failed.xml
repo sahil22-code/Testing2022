@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="newtestingfeb2.AmazonTest_Priority">
+        <methods>
+          <include name="launchApp"/>
+          <include name="verifyAppTitle"/>
+          <include name="verifyAppTitleBeforeSearch"/>
+          <include name="closeApp"/>
+          <include name="searchItems"/>
+        </methods>
+      </class> <!-- newtestingfeb2.AmazonTest_Priority -->
+      <class name="newtesting.AmazonTest_Priority">
+        <methods>
+          <include name="launchApp"/>
+          <include name="searchItems"/>
+          <include name="closeApp"/>
+          <include name="verifyAppTitle"/>
+          <include name="verifyAppTitleBeforeSearch"/>
+        </methods>
+      </class> <!-- newtesting.AmazonTest_Priority -->
+      <class name="newtestingfeb2.Amazontesting">
+        <methods>
+          <include name="launchApp"/>
+          <include name="searchItems"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- newtestingfeb2.Amazontesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

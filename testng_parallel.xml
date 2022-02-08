@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Suite">
+
+
+
+
+  <test  name="Test1">
+    <classes>
+      <class name="newtestingfeb2.AmazonTest_Priority"/>
+      <class name="newtestingfeb2.Amazontesting"/>
+    </classes>
+  </test>
+  
+  
+
+
+
+
+  <test  name="Test2">
+    <classes>
+      <class name="newtesting.AmazonTest_Priority"/>
+    </classes>
+  </test>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->
